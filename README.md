@@ -4,7 +4,7 @@ Template to create a **Playwright** project with **Python** for end-to-end testi
 
 ## Description
 
-This project performs E2E tests on the [Bootcamp QA](https://bootcampqa.com) website, generating a report of results and video recordings. Tests are executed on **Chrome** (desktop).
+This project performs E2E tests on the [Accenture](https://www.accenture.com/es-es) website, generating a report of results and video recordings. Tests are executed on **Chrome** (desktop).
 
 ## Technologies
 

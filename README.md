@@ -1,4 +1,4 @@
-# Playwright E2E W3 Schools
+# Playwright E2E W3Schools
 
 This project performs E2E tests on the [W3 Schools](https://www.w3schools.com/) website, generating a report of results. Tests are executed on **Chrome** (desktop) and **iPhone 12** (mobile, emulated).
 

@@ -4,7 +4,7 @@ Template to create a **Playwright** project with **Python** for end-to-end testi
 
 ## Description
 
-This project performs E2E tests on the [W3 School](https://www.w3schools.com/) website, generating a report of results and video recordings. Tests are executed on **Chrome** (desktop).
+This project performs E2E tests on the [W3 Schools](https://www.w3schools.com/) website, generating a report of results and video recordings. Tests are executed on **Chrome** (desktop).
 
 ## Technologies
 

@@ -1,6 +1,6 @@
 # Playwright E2E W3Schools
 
-This project performs E2E tests on the [W3 Schools](https://www.w3schools.com/) website, generating a report of results. Tests are executed on **Chrome** (desktop) and **iPhone 12** (mobile, emulated).
+This project performs E2E tests on the [W3Schools](https://www.w3schools.com/) website, generating a report of results. Tests are executed on **Chrome** (desktop) and **iPhone 12** (mobile, emulated).
 
 ## Technologies
 
@@ -11,7 +11,7 @@ This project performs E2E tests on the [W3 Schools](https://www.w3schools.com/) 
 
 You can view the test status using the following **GitHub Actions** badge:
 
-![Test Workflow](https://github.com/rocioinnocenti/e2e-playwright-w3school/actions/workflows/playwright_tests.yml/badge.svg)
+![Test Workflow](https://github.com/rocioinnocenti/e2e-playwright-w3schools/actions/workflows/playwright_tests.yml/badge.svg)
 
 ## Requirements
 

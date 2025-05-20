@@ -1,10 +1,6 @@
-# Playwright Python Template
+# Playwright E2E W3 Schools
 
-Template to create a **Playwright** project with **Python** for end-to-end testing.
-
-## Description
-
-This project performs E2E tests on the [Accenture](https://www.accenture.com/es-es) website, generating a report of results and video recordings. Tests are executed on **Chrome** (desktop).
+This project performs E2E tests on the [W3 Schools](https://www.w3schools.com/) website, generating a report of results. Tests are executed on **Chrome** (desktop) and **iPhone 12** (mobile, emulated).
 
 ## Technologies
 
@@ -15,7 +11,7 @@ This project performs E2E tests on the [Accenture](https://www.accenture.com/es-
 
 You can view the test status using the following **GitHub Actions** badge:
 
-![Test Workflow](https://github.com/Bootcamp-QA/playwright-python-template/actions/workflows/playwright_tests.yml/badge.svg)
+![Test Workflow](https://github.com/rocioinnocenti/e2e-playwright-w3school/actions/workflows/playwright_tests.yml/badge.svg)
 
 ## Requirements
 

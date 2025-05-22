@@ -1,6 +1,6 @@
 # Playwright E2E W3Schools
 
-This project performs E2E tests on the [W3Schools](https://www.w3schools.com/) website, generating a report of results. Tests are executed on **Chrome** (desktop) and **iPhone 12** (mobile, emulated).
+This project performs E2E tests on the [Accenture](https://www.accenture.com/es-es) website, generating a report of results. Tests are executed on **Chrome** (desktop) and **iPhone 12** (mobile, emulated).
 
 ## Technologies
 

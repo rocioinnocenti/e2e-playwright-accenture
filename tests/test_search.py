@@ -1,7 +1,7 @@
+#Code without using codegen
 from playwright.sync_api import Page, expect
 import re
 
-#Code written by me
 #Search - Search
 def test_search(page:Page):
     print("Given the user visits Accenture homepage")
@@ -26,11 +26,11 @@ def test_search_valid_value(page:Page):
     print("Given the user visits Accenture search page")
     page.goto("https://www.accenture.com/es-es/search/results")
     
-    print("When the user accepts all cookies")
+    print("And the user accepts all cookies")
     page.get_by_role("button", name="Aceptar todas las cookies.").click()
     page.wait_for_url("https://www.accenture.com/es-es/search/results")
 
-    print("And the user fills the search bar with a valid value")
+    print("When the user fills the search bar with a valid value")
     page.get_by_placeholder("Type to search...").clear()
     page.get_by_placeholder("Type to search...").fill("Artificial Intelligence")
     
@@ -66,11 +66,11 @@ def test_search_empty_value(page:Page):
     print("Given the user visits Accenture search page")
     page.goto("https://www.accenture.com/es-es/search/results")
     
-    print("When the user accepts all cookies")
+    print("And the user accepts all cookies")
     page.get_by_role("button", name="Aceptar todas las cookies.").click()
     page.wait_for_url("https://www.accenture.com/es-es/search/results")
 
-    print("And the user fills the search bar with an empty value")
+    print("When the user fills the search bar with an empty value")
     page.get_by_placeholder("Type to search...").clear()
 
     print("And the user presses Enter")
@@ -78,6 +78,3 @@ def test_search_empty_value(page:Page):
 
     print("Then the user should see their search")
     expect(page.get_by_role("heading", name="No results for \"\"", exact=True, level=2)).to_be_visible()
-
-
-#Code obtained using the codegen tool

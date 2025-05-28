@@ -57,7 +57,7 @@ def test_language_menu_australia(page:Page):
     page.wait_for_selector("text=Australia (English)") 
     
     print("When the user clicks on Australia (English)")
-    page.get_by_role("menuitem", name="Australia (English)").click()
+    page.get_by_text("Australia (English)", exact=True).click()
     page.wait_for_url("https://www.accenture.com/au-en")
 
     print("Then the user should go to the Australian website")
@@ -89,7 +89,7 @@ def test_language_menu_austria(page:Page):
     page.wait_for_selector("text=Austria (German)")
     
     print("When the user clicks on Austria (German)")
-    page.get_by_role("menuitem", name="Austria (German)").click()
+    page.get_by_text("Austria (German)", exact=True).click()
     page.wait_for_url("https://www.accenture.com/at-de")
 
     print("Then the user should go to Austria's website")

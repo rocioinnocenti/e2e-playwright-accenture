@@ -3,7 +3,7 @@ from playwright.sync_api import Page, expect
 def test_visit(page:Page):
     print("Given user visit homepage")
     page.goto("https://www.accenture.com/es-es")
-    
+    #page.pause()
     
     #LOCATOR EXAMPLES
     #Alt text image: expect(page.get_by_alt_text("alt_text_name")).to_be_visible() (it's the alt text that appears in the HTML by inspecting the element)
@@ -23,4 +23,3 @@ def test_visit(page:Page):
     #TO TEST IN MOBILES
     #Use: python3 -m pytest tests/test_menu.py --headed --device='iPhone 12 Pro' 
     #Check that nothing changes, sometimes you may have to add an extra click to display a menu that appears directly in the desktop version, but not in the mobile one (since it's smaller)
-

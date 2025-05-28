@@ -22,6 +22,7 @@ def test_visit_menu_links(page:Page):
     print("And clicks on Servicios in the menu")
     page.get_by_role("button", name="Servicios", exact=True).click()
     print("Then the user should see a display with a list of services and a list of industries")
+    expect(page.get_by_role("link", name="Automation")) 
 
     #Go back to be able to select something else in the mobile menu
     if(utils.is_mobile(page)):
@@ -30,6 +31,7 @@ def test_visit_menu_links(page:Page):
     print("And clicks on Quiénes somos in the menu")
     page.get_by_role("button", name="Quiénes somos", exact=True).click()
     print("Then the user should see a display with three lists under: Quiénes somos, Cómo estamos organizados, and En España")
+    expect(page.get_by_role("link", name="Quiénes somos", exact=True))
     
     #Go back to be able to select something else in the mobile menu
     if(utils.is_mobile(page)):
@@ -38,3 +40,4 @@ def test_visit_menu_links(page:Page):
     print("And clicks on Incorpórate in the menu")
     page.get_by_role("button", name="Incorpórate").click()
     print("Then the user should see a display with the title Tu carrera and three columns: Únete a nuestro equipo, Busca ofertas, and a list of technologies")
+    expect(page.get_by_role("link", name="Tu carrera"))

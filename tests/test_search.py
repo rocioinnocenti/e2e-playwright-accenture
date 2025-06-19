@@ -2,16 +2,14 @@ from playwright.sync_api import Page, expect
 import re
 
 #Search - Search
-def generate_random_serch():
-
-    
+#def generate_random_serch():
 
 def test_search(page:Page):
     print("Given the user visits Accenture homepage")
     page.goto("https://www.accenture.com/es-es")
     
     print("When the user accepts all cookies")
-    page.get_by_role("button", name="Aceptar todas las cookies.").click()
+    page.get_by_role("button", name="Aceptar todas las cookies").click()
     page.wait_for_url("https://www.accenture.com/es-es")
 
     print("And clicks on the magnifying glass icon")

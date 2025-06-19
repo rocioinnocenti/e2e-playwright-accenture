@@ -7,7 +7,7 @@ def test_language_menu_argentina(page:Page):
     page.goto("https://www.accenture.com/es-es")
 
     print("When the user accepts all cookies")
-    page.get_by_role("button", name="Aceptar todas las cookies.").click()
+    page.get_by_role("button", name="Aceptar todas las cookies").click()
     page.wait_for_url("https://www.accenture.com/es-es")
 
     print("And clicks on the language menu")
@@ -32,7 +32,7 @@ def test_language_menu_italy(page:Page):
     page.goto("https://www.accenture.com/es-es")
 
     print("When the user accepts all cookies")
-    page.get_by_role("button", name="Aceptar todas las cookies.").click()
+    page.get_by_role("button", name="Aceptar todas las cookies").click()
     page.wait_for_url("https://www.accenture.com/es-es")
 
     print("And clicks on the language menu")
@@ -57,7 +57,7 @@ def test_language_menu_usa(page:Page):
     page.goto("https://www.accenture.com/es-es")
 
     print("When the user accepts all cookies")
-    page.get_by_role("button", name="Aceptar todas las cookies.").click()
+    page.get_by_role("button", name="Aceptar todas las cookies").click()
     page.wait_for_url("https://www.accenture.com/es-es")
 
     print("And clicks on the language menu")

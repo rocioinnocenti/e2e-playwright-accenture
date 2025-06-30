@@ -67,7 +67,7 @@ def test_search_empty_value(page:Page):
     page.goto("https://www.accenture.com/es-es/search/results")
     
     print("And the user accepts all cookies")
-    page.get_by_role("button", name="Aceptar todas las cookies.").click()
+    page.get_by_role("button", name="Aceptar todas las cookies").click()
     page.wait_for_url("https://www.accenture.com/es-es/search/results")
 
     print("When the user fills the search bar with an empty value")

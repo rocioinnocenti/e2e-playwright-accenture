@@ -9,8 +9,8 @@ def test_codegen_search_valid_value(page:Page):
     print("Given the user visits Accenture search page")
     page.goto("https://www.accenture.com/es-es/search/results")
 
-    print("And the user accepts all cookies")
-    page.get_by_role("button", name="Aceptar todas las Cookies").click()
+    #print("And the user accepts all cookies")
+    #page.get_by_role("button", name="Aceptar todas las Cookies").click()
 
     print("When the user fills the search bar with a valid value")
     page.get_by_role("textbox", name="search field").click()
@@ -28,8 +28,8 @@ def test_codegen_search_invalid_value(page:Page):
     print("Given the user visits Accenture search page")
     page.goto("https://www.accenture.com/es-es/search/results")
 
-    print("And the user accepts all cookies")
-    page.get_by_role("button", name="Aceptar todas las Cookies").click()
+    #print("And the user accepts all cookies")
+    #page.get_by_role("button", name="Aceptar todas las Cookies").click()
 
     print("When the user fills the search bar with an invalid value")
     page.get_by_role("textbox", name="search field").click()
@@ -47,8 +47,8 @@ def test_codegen_search_empty_value(page:Page):
     print("Given the user visits Accenture search page")
     page.goto("https://www.accenture.com/es-es/search/results")
 
-    print("And the user accepts all cookies")
-    page.get_by_role("button", name="Aceptar todas las Cookies").click()
+    #print("And the user accepts all cookies")
+    #page.get_by_role("button", name="Aceptar todas las Cookies").click()
 
     print("When the user fills the search bar with an empty value")
     page.get_by_role("textbox", name="search field").click()

@@ -8,10 +8,10 @@ def test_visit_menu_links(page:Page):
     #Navegation, open url in browser
     page.goto("https://www.accenture.com/es-es")
     
-    print("When the user accepts all cookies")
+    #print("When the user accepts all cookies")
     #Locate the element by text or role
-    page.get_by_role("button", name="Aceptar todas las cookies").click()
-    page.wait_for_url("https://www.accenture.com/es-es")
+    #page.get_by_role("button", name="Aceptar todas las cookies").click()
+    #page.wait_for_url("https://www.accenture.com/es-es")
 
     #Locate the element by role (link, button, div) and text. If it has no role and the text is repeated, then use nth (0 is the first one, 1 is the second one, etc)
     #See if it's mobile or desktop

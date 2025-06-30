@@ -11,7 +11,7 @@ This project performs E2E tests on the [Accenture](https://www.accenture.com/es-
 
 You can view the test status using the following **GitHub Actions** badge:
 
-![Test Workflow](https://github.com/rocioinnocenti/e2e-playwright-w3schools/actions/workflows/playwright_tests.yml/badge.svg)
+![Test Workflow](https://www.google.com/url?q=https://github.com/rocioinnocenti/e2e-playwright-accenture/actions/workflows/playwright_tests.yml&sa=D&source=editors&ust=1751290773879166&usg=AOvVaw11oXNPi6qSH90elZAW_E8k)
 
 ## Requirements
 

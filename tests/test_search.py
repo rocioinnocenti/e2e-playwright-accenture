@@ -27,7 +27,7 @@ def test_search_valid_value(page:Page):
     page.goto("https://www.accenture.com/es-es/search/results")
     
     print("And the user accepts all cookies")
-    page.get_by_role("button", name="Aceptar todas las cookies.").click()
+    page.get_by_role("button", name="Aceptar todas las cookies").click()
     page.wait_for_url("https://www.accenture.com/es-es/search/results")
 
     print("When the user fills the search bar with a valid value")
@@ -47,7 +47,7 @@ def test_search_invalid_value(page:Page):
     page.goto("https://www.accenture.com/es-es/search/results")
     
     print("When the user accepts all cookies")
-    page.get_by_role("button", name="Aceptar todas las cookies.").click()
+    page.get_by_role("button", name="Aceptar todas las cookies").click()
     page.wait_for_url("https://www.accenture.com/es-es/search/results")
 
     print("And the user fills the search bar with an ivalid value")

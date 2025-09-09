@@ -71,9 +71,9 @@ def test_language_menu_austria(page:Page):
     print("Given the user visits the Accenture homepage")
     page.goto("https://www.accenture.com/es-es")
 
-    #print("When the user accepts all cookies")
-    #page.get_by_role("button", name="Aceptar todas las cookies").click()
-    #page.wait_for_url("https://www.accenture.com/es-es")
+    print("When the user accepts all cookies")
+    page.get_by_role("button", name="Aceptar todas las cookies").click()
+    page.wait_for_url("https://www.accenture.com/es-es")
 
     #See if it's mobile or desktop
     if(utils.is_mobile(page)):
